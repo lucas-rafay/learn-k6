@@ -6,6 +6,8 @@ Install K6
 - sudo apt-get update
 - sudo apt-get install k6
 
+Report
+https://k6.io/docs/get-started/results-output/
 
 K6 Extensions
 - go installation: https://go.dev/doc/install
@@ -14,3 +16,7 @@ K6 Extensions
   - check $GOPATH
   - if not set `export GOPATH=/usr/local/go`
 - install extension https://k6.io/docs/extensions/get-started/bundle/
+
+Influxdb
+- https://github.com/grafana/k6/issues/1883#issuecomment-791248840
+- https://k6.io/docs/results-output/real-time/influxdb-grafana/
